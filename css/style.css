@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container-header {
+  background-color: RGB(255, 194, 52);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  height: 100px;
+
+  padding: 100px 50px;
+}
+
+.header-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-menu ul li a {
+  color: RGB(65, 31, 9);
+  text-decoration: none;
+  font-size: 20px;
+}
+.header-menu ul li a:hover {
+  color: brown;
+}
+.main {
+  background-color: RGB(255, 194, 52);
+
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  font-size: 50px;
+
+  padding: 30px 50px;
+}
+.main-col1 {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+
+  color: brown;
+}
+.main-title .main-col1 h1 {
+  font-size: 30px;
+  padding-top: 0%;
+}
+
+.main-col2 {
+  width: 50%;
+}
+.main-col2 figure {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-col2 .main-title h1:first-child {
+  font-weight: normal;
+}
+section {
+  padding: 20px 50px;
+}
+
+.section-title {
+  font-size: 2em;
+}
+
+.section-text {
+  font-size: 1em;
+}
+
+.sec {
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  color: brown;
+}
+
+.sec-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  justify-content: center;
+  font-size: medium;
+  color: brown;
+}
+
+.container-cards {
+  display: flex;
+}
+.card {
+  border: solid black 1px;
+  color: brown;
+}
+.main-button {
+  width: 200px;
+  height: 30px;
+  background-color: red;
+  border: none;
+}
+.main-button a {
+  text-decoration: none;
+  color: brown;
+}
+.main-button:hover {
+  background-color: red;
+}

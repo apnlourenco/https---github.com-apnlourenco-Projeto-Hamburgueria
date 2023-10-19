@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <title>Projeto Hamburgueria</title>
+  </head>
+
+  <body>
+    <header class="container-header">
+      <div class="header-logo">
+        <figure>
+          <img src="./img/logo.png" alt="Logo da Hamburgueria" />
+        </figure>
+      </div>
+
+      <nav class="header-menu">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">MENU</a></li>
+          <li><a href="">OUR STORY</a></li>
+          <li><a href="">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="main-col1">
+        <div class="main-title">
+          <h1>BURGER</h1>
+          <h3>WEEK</h3>
+        </div>
+      </div>
+      <div class="main-col2">
+        <figure>
+          <img
+            src="./img/main/lanche-principal.png"
+            alt="Imagem de um hamburguer com batata frita e refrigerante"
+          />
+        </figure>
+      </div>
+    </main>
+    <section class="sec">
+      <h1 class="section-title">Chose & Enjoy</h1>
+      <p class="section-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitat
+      </p>
+      <div class="container-cards">
+        <div class="card">
+          <figure>
+            <img src="./img/sessao/card1.png" alt="" />
+            <h3>Lorem Lorem Lorem</h3>
+            <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+            <button class="main-button">
+              <a href=""> Order Now </a>
+            </button>
+          </figure>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./img/sessao/card2.png" alt="" />
+            <h3>Lorem Lorem Lorem</h3>
+            <p>Lorem Lorem Lorem Lorem Lorem Lorem</p>
+            <button class="main-button">
+              <a href=""> Order Now </a>
+            </button>
+          </figure>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./img/sessao/card3.png" alt="" />
+            <h3>Lorem Lorem Lorem Lorem</h3>
+            <p>Lorem Lorem Lorem Lorem</p>
+            <button class="main-button">
+              <a href="">Order Now </a>
+            </button>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <form action="" method="post">
+      <h2>Reservation</h2>
+
+      <div class="container-form">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+
+          <div>
+            <label for="Nome">Nome: *</label>
+            <input
+              type="text"
+              name="name"
+              id="nome"
+              placeholder="Informe seu nome"
+              required
+              disabled
+            />
+          </div>
+          <div>
+            <label for="Email">Email: *</label>
+            <input
+              type="email"
+              email="email"
+              id="email"
+              placeholder="Informe seu email"
+              required
+              disabled
+            />
+          </div>
+          <div>
+            <label for="Date">Date: *</label>
+            <input
+              type="date"
+              date="date"
+              id="date"
+              placeholder="Informe a data"
+              required
+              disabled
+            />
+          </div>
+          <div>
+            <label for="time">Time: *</label>
+            <input
+              type="time"
+              time="time"
+              id="time"
+              placeholder="Informe a hora"
+              required
+              disabled
+            />
+          </div>
+          <div>
+            <label for="people">People: *</label>
+            <input
+              type="people"
+              people="people"
+              id="people"
+              placeholder=""
+              required
+              disabled
+            />
+          </div>
+          <div>
+            <button class="main-button">
+              <a href="">FIND A TABLE</a>
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
